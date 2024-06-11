@@ -28,6 +28,8 @@ zinit cdreplay -q
 
 # Aliases
 alias ls='ls --color'
+alias tree='tree -L 2 -I .git'
+alias c='clear'
 
 bindkey '^k' history-search-backward
 bindkey '^j' history-search-forward
