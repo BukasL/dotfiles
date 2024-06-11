@@ -2,12 +2,12 @@
 
 ## Install
 ### git & stow
-´´´bash
+~~~bash
 sudo pacman -S git stow
-´´´
+~~~
 
 ## Setup
 Run from inside ~/dotfile/
-´´´bash
+~~~bash
 stow .
-´´´
+~~~
