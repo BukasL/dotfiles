@@ -10,7 +10,7 @@ fi
 # Source/Load zinit
 source "${ZINIT_HOME}/zinit.zsh"
 
-eval "$(oh-my-posh init zsh)"
+eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/minimal.toml)"
 
 # Add in zsh plugins
 zinit light zsh-users/zsh-syntax-highlighting
@@ -29,7 +29,6 @@ zinit cdreplay -q
 # Aliases
 alias ls='ls --color'
 
-bindkey '^f'
 bindkey '^k' history-search-backward
 bindkey '^j' history-search-forward
 

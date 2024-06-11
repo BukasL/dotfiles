@@ -1,0 +1,45 @@
+#:schema https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json
+
+version = 2
+final_space = true
+console_title_template = '{{ .Shell }} in {{ .Folder }}'
+
+[[blocks]]
+  type = 'prompt'
+  alignment = 'left'
+  newline = true
+
+  [[blocks.segments]]
+    type = 'path'
+    style = 'plain'
+    background = 'transparent'
+    forground = 'p:sky'
+    template = '{{ .Path }}'
+    
+    [blocks.segments.properties]
+	style = 'full'
+
+[[blocks]]
+  type = 'prompt'
+  alignment = 'left'
+  newline = true
+ 
+  [[blocks.segments]]
+    type = 'text'
+    style = 'plain'
+    background = 'transparent'
+    forground = 'p:sky'
+    template = "❯"  #"▶"
+  
+[transient_prompt]
+  foreground = 'p:packed-ice'
+  background = 'transparent'
+  template = "▶ "
+  
+ 
+[palette]
+snow = "#ebebeb"
+crystal = "#dde8ee"
+ice = "#b7cede"
+packed-ice = "#8cabc2"
+sky = "#767bb2"
