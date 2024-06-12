@@ -2,6 +2,9 @@ import = [
   "~/dotfiles/.config/alacritty/themes/noctis.toml"
 ]
 
+[font]
+size = 14
+
 [font.normal]
 family = "CommitMono Nerd Font"
 style = "Regular"

@@ -13,7 +13,7 @@ console_title_template = '{{ .Shell }} in {{ .Folder }}'
     type = 'path'
     style = 'plain'
     background = 'transparent'
-    forground = 'p:sky'
+    forground = 'p:blue'
     template = '{{ .Path }}'
     
     [blocks.segments.properties]
@@ -28,16 +28,17 @@ console_title_template = '{{ .Shell }} in {{ .Folder }}'
     type = 'text'
     style = 'plain'
     background = 'transparent'
-    forground = 'p:sky'
+    forground = 'p:blue' 
     template = "❯"  #"▶"
   
 [transient_prompt]
-  foreground = 'p:packed-ice'
+  foreground = 'p:blue'
   background = 'transparent'
   template = "▶ "
   
  
 [palette]
+blue = "#0fa3ff"
 snow = "#ebebeb"
 crystal = "#dde8ee"
 ice = "#b7cede"
