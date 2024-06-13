@@ -14,7 +14,7 @@ console_title_template = '{{ .Shell }} in {{ .Folder }}'
     style = 'plain'
     background = 'transparent'
     forground = 'p:blue'
-    template = '{{ .Path }}'
+    template = "<#0fa3ff>{{ .Path }}</>"
     
     [blocks.segments.properties]
 	style = 'full'
@@ -29,7 +29,7 @@ console_title_template = '{{ .Shell }} in {{ .Folder }}'
     style = 'plain'
     background = 'transparent'
     forground = 'p:blue' 
-    template = "❯"  #"▶"
+    template = "<#0fa3ff>❯</>"  #"▶"
   
 [transient_prompt]
   foreground = 'p:blue'
