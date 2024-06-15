@@ -3,7 +3,7 @@
 ## Prerequisites
 ### git & stow
 ~~~bash
-sudo pacman -S git stow
+sudo pacman -S git stow otf-commit-mono-nerd
 ~~~
 
 ## Clone
