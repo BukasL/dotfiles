@@ -1,5 +1,6 @@
 
 bitwarden
 discord
+evince
 otf-commit-mono-nerd
 tree

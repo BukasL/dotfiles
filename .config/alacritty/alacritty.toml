@@ -1,5 +1,5 @@
 import = [
-  "~/dotfiles/.config/alacritty/themes/noctis.toml"
+  "~/dotfiles/.config/alacritty/themes/noctis.toml" # light theme
 ]
 
 [font]
