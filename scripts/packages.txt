@@ -1,0 +1,5 @@
+
+bitwarden
+discord
+otf-commit-mono-nerd
+tree
