@@ -3,4 +3,5 @@ bitwarden
 discord
 evince
 otf-commit-mono-nerd
+stow
 tree
