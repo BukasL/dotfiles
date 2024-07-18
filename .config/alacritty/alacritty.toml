@@ -1,6 +1,6 @@
 import = [
-  #"~/dotfiles/.config/alacritty/themes/noctis.toml" # light theme
-  "~/dotfiles/.config/alacritty/themes/dracula.toml" # dark theme
+  "~/dotfiles/.config/alacritty/themes/noctis.toml" # light theme
+  #"~/dotfiles/.config/alacritty/themes/dracula.toml" # dark theme
 ]
 
 [font]
